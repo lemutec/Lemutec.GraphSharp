@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net462;net472;net48;net5.0-windows;net6.0-windows;net7.0-windows;net8.0-windows;net9.0-windows</TargetFrameworks>
+		<UseWPF>true</UseWPF>
+		<LangVersion>preview</LangVersion>
+		<NoWarn>SYSLIB0051;</NoWarn>
+		<AssemblyVersion>3.0.2</AssemblyVersion>
+		<FileVersion>3.0.2</FileVersion>
+		<Version>$(VersionPrefix)3.0.2</Version>
+		<Authors>ema</Authors>
+		<Company>ema</Company>
+		<PackageProjectUrl>https://github.com/Lemutec/Lemutec.GraphSharp</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Lemutec/Lemutec.GraphSharp</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageId>Lemutec.GraphSharp</PackageId>
+		<Description>Fork of the QuickGraph library</Description>
+		<PackageTags>QuickGraph graph Graph#</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageIcon>logo.png</PackageIcon>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\LICENSE" Visible="false" Pack="true" PackagePath="" />
+		<None Include="..\README.md" Visible="false" Pack="true" PackagePath="" />
+		<None Include="..\assets\logo.png" Visible="false" Pack="true" PackagePath="" />
+	</ItemGroup>
+
+</Project>
