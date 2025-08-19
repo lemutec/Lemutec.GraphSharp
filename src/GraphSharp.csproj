@@ -5,9 +5,9 @@
 		<UseWPF>true</UseWPF>
 		<LangVersion>preview</LangVersion>
 		<NoWarn>SYSLIB0051;</NoWarn>
-		<AssemblyVersion>3.0.2</AssemblyVersion>
-		<FileVersion>3.0.2</FileVersion>
-		<Version>$(VersionPrefix)3.0.2</Version>
+		<AssemblyVersion>3.0.3</AssemblyVersion>
+		<FileVersion>3.0.3</FileVersion>
+		<Version>$(VersionPrefix)3.0.3</Version>
 		<Authors>ema</Authors>
 		<Company>ema</Company>
 		<PackageProjectUrl>https://github.com/Lemutec/Lemutec.GraphSharp</PackageProjectUrl>
