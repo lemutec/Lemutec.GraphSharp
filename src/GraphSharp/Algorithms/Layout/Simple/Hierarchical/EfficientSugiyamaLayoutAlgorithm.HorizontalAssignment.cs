@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -414,14 +414,16 @@ namespace GraphSharp.Algorithms.Layout.Simple.Hierarchical
                         //align the segment of the PVertex
                         vertex.Roots[modeIndex] = vertex.Segment.QVertex.Roots[modeIndex];
                         vertex.Aligns[modeIndex] = vertex.Roots[modeIndex];
-                        r = vertex.Segment.Position;
+                        // Do not update r to avoid affecting the alignment of ordinary nodes in the same layer.
+                        // r = vertex.Segment.Position;
                     }
                     else if (vertex.Type == VertexTypes.QVertex /*&& upperLowerEdges == UpperLowerEdges.Upper*/)
                     {
                         //align the segment of the QVertex
                         vertex.Roots[modeIndex] = vertex.Segment.PVertex.Roots[modeIndex];
                         vertex.Aligns[modeIndex] = vertex.Roots[modeIndex];
-                        r = vertex.Segment.Position;
+                        // Do not update r to avoid affecting the alignment of ordinary nodes in the same layer.
+                        // r = vertex.Segment.Position;
                     }
                 }
             }
