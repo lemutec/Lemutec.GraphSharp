@@ -1,8 +1,8 @@
-[![GitHub license](https://img.shields.io/github/license/emako/Lemutec.GraphSharp)](https://github.com/Lemutec/Lemutec.GraphSharp/blob/master/LICENSE) [![NuGet](https://img.shields.io/nuget/v/Lemutec.GraphSharp.svg)](https://nuget.org/packages/Lemutec.GraphSharp) [![Actions](https://github.com/Lemutec/Lemutec.GraphSharp/actions/workflows/build.yml/badge.svg)](https://github.com/Lemutec/Lemutec.GraphSharp/actions/workflows/build.yml)
+[![GitHub license](https://img.shields.io/github/license/lemutec/Lemutec.GraphSharp)](https://github.com/lemutec/Lemutec.GraphSharp/blob/master/LICENSE) [![NuGet](https://img.shields.io/nuget/v/Lemutec.GraphSharp.svg)](https://nuget.org/packages/Lemutec.GraphSharp) [![Actions](https://github.com/lemutec/Lemutec.GraphSharp/actions/workflows/build.yml/badge.svg)](https://github.com/lemutec/Lemutec.GraphSharp/actions/workflows/build.yml)
 
 # GraphSharp
 
-Forked from [graphsharp](https://github.com/highway-it/graphsharp)
+> Forked from [graphsharp](https://github.com/highway-it/graphsharp)
 
 e.g.
 
